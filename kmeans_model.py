@@ -99,7 +99,7 @@ def kmeans_k(list):
     plt.show()
 
 if __name__ == "__main__":
-    source_data_file = 'crm_for_cluster_mini.txt'
+    source_data_file = 'test_data.txt'
     new_file = deal_file_type(source_data_file)
     df = read_formal_data(new_file)
     init_stand(df,['AGE','SEX','SCOMB_MSG','SCOMB_MSG_BXL','REGISTER_TIME','IS_SCHOOL_USER'])
